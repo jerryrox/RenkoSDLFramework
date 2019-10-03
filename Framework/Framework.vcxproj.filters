@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{9147aa3a-424e-4ec5-b740-f037ed824036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renko">
+      <UniqueIdentifier>{c4d566bd-0336-4875-badc-05ba55fc7512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renko">
+      <UniqueIdentifier>{e0d23c96-0444-4cc6-869c-d262a10c3719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tests">
+      <UniqueIdentifier>{debe7fc8-d18b-4a54-bfce-a95bb2a12c38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tests">
+      <UniqueIdentifier>{dee50eb5-173f-425d-963a-d53f3e306989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{62a61210-d989-4d98-9cdf-cc7c5e62d0f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Objects">
+      <UniqueIdentifier>{82c7a30a-bd9e-46fd-9d7e-7808da426408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Objects">
+      <UniqueIdentifier>{21b053ed-f312-40b6-b984-2e30bba3e3df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renko\Animation">
+      <UniqueIdentifier>{f3ffbccb-a069-4251-a854-7b71ac085300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renko\Audio">
+      <UniqueIdentifier>{4cd0eba2-ea51-45c7-b2d7-0ab66c2707ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renko\Components">
+      <UniqueIdentifier>{775ad136-b7d0-4206-a823-036ba0dac242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renko\Data">
+      <UniqueIdentifier>{52947bcd-2a57-4232-bc99-8e7df11082af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renko\Diagnostics">
+      <UniqueIdentifier>{6e93b144-ca66-46fc-9417-516899b40b36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renko\Objects">
+      <UniqueIdentifier>{1b1c4cfb-ee35-45a1-9583-0f42d26e37b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renko\Views">
+      <UniqueIdentifier>{2a895a67-278d-49d9-8135-8424608b1200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renko\Components\UI">
+      <UniqueIdentifier>{5b2ebe61-8b09-4832-82aa-73748add0aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renko\Components\Views">
+      <UniqueIdentifier>{0919cd03-2188-4e56-ab5a-7c89d5b4cf6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renko\Rendering">
+      <UniqueIdentifier>{cea7d828-7443-4040-858e-9e636f614028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renko\Inputs">
+      <UniqueIdentifier>{e7de0595-cc75-4e12-92d8-141bac7a0221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renko\Utils">
+      <UniqueIdentifier>{182692d6-42b9-4875-9af6-af8337d7a7d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renko\Animation">
+      <UniqueIdentifier>{c747d55c-fed6-46f8-adbe-a9dbd43db44a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renko\Audio">
+      <UniqueIdentifier>{c32f0e4a-3909-437b-bfc3-051508b64d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renko\Components">
+      <UniqueIdentifier>{29779ed2-21c3-48b3-b28d-3042492878d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renko\Data">
+      <UniqueIdentifier>{fb2293fc-5624-4d62-89b7-c9ced1dde24f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renko\Diagnostics">
+      <UniqueIdentifier>{4e57274f-7c0e-4e62-80c5-fc4101f2e92b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renko\Inputs">
+      <UniqueIdentifier>{afde8e1e-ee08-4206-b245-6297a44b5bd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renko\Utils">
+      <UniqueIdentifier>{c2db9ba7-7ad0-4132-af09-250c24546ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renko\Rendering">
+      <UniqueIdentifier>{9fb4ae02-9bc5-4a8a-925f-c53d4e9da9a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renko\Views">
+      <UniqueIdentifier>{ada123db-87da-4e08-9e17-72044fd61c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renko\Objects">
+      <UniqueIdentifier>{0f6a41aa-e168-4890-8565-a4b899253efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renko\Components\UI">
+      <UniqueIdentifier>{59a4033d-e685-4058-ad92-e64063a3dd7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renko\Components\Views">
+      <UniqueIdentifier>{fef597a6-3843-4f37-b784-57d81b5ba442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tests\FrameworkTest">
+      <UniqueIdentifier>{1a0a9df3-6687-4dd8-abf8-9f4bfd070350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tests\FrameworkTest">
+      <UniqueIdentifier>{6b8d49ff-890e-41fa-a922-4e5a4a48287c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenkoFramework.cpp">
+      <Filter>Source Files\Renko</Filter>
+    </ClCompile>
+    <ClCompile Include="Anime.cpp">
+      <Filter>Source Files\Renko\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimeEventSection.cpp">
+      <Filter>Source Files\Renko\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimeSection.cpp">
+      <Filter>Source Files\Renko\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCodeBase.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="LoggerTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="EventsTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimeTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="UIViewController.cpp">
+      <Filter>Source Files\Renko\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScreenController.cpp">
+      <Filter>Source Files\Renko\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="UIOverlayController.cpp">
+      <Filter>Source Files\Renko\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="UIOverlay.cpp">
+      <Filter>Source Files\Renko\Components\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScreen.cpp">
+      <Filter>Source Files\Renko\Components\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="UIView.cpp">
+      <Filter>Source Files\Renko\Components\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="UIAnimatedSprite.cpp">
+      <Filter>Source Files\Renko\Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDisplayer.cpp">
+      <Filter>Source Files\Renko\Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UILabel.cpp">
+      <Filter>Source Files\Renko\Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UISprite.cpp">
+      <Filter>Source Files\Renko\Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UITexture.cpp">
+      <Filter>Source Files\Renko\Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIWidget.cpp">
+      <Filter>Source Files\Renko\Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Atlas.cpp">
+      <Filter>Source Files\Renko\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioClips.cpp">
+      <Filter>Source Files\Renko\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioClock.cpp">
+      <Filter>Source Files\Renko\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Source Files\Renko\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Easing.cpp">
+      <Filter>Source Files\Renko\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicController.cpp">
+      <Filter>Source Files\Renko\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Source Files\Renko\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Renko\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="InputBlocker.cpp">
+      <Filter>Source Files\Renko\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Events.cpp">
+      <Filter>Source Files\Renko\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Source Files\Renko\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Updatable.cpp">
+      <Filter>Source Files\Renko\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Renko\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtils.cpp">
+      <Filter>Source Files\Renko\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>Source Files\Renko\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="PathUtils.cpp">
+      <Filter>Source Files\Renko\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Source Files\Renko\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\Renko\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEmitter.cpp">
+      <Filter>Source Files\Renko\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Source Files\Renko\Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Renko\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CursorInteractible.cpp">
+      <Filter>Source Files\Renko\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleLogger.cpp">
+      <Filter>Source Files\Renko\Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseLogger.cpp">
+      <Filter>Source Files\Renko\Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\Renko\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Source Files\Renko\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkTest.cpp">
+      <Filter>Source Files\Tests\FrameworkTest</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkTestScreen.cpp">
+      <Filter>Source Files\Tests\FrameworkTest</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkTestButton.cpp">
+      <Filter>Source Files\Tests\FrameworkTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\Renko\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="RenkoFramework.h">
+      <Filter>Header Files\Renko</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationStop.h">
+      <Filter>Header Files\Renko\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationWrap.h">
+      <Filter>Header Files\Renko\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Anime.h">
+      <Filter>Header Files\Renko\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimeEventSection.h">
+      <Filter>Header Files\Renko\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimeSection.h">
+      <Filter>Header Files\Renko\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="TestCodeBase.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="EventsTest.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="LoggerTest.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimeTest.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Atlas.h">
+      <Filter>Header Files\Renko\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioClips.h">
+      <Filter>Header Files\Renko\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioClock.h">
+      <Filter>Header Files\Renko\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Header Files\Renko\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseLogger.h">
+      <Filter>Header Files\Renko\Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendMode.h">
+      <Filter>Header Files\Renko\Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Header Files\Renko\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Header Files\Renko\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleLogger.h">
+      <Filter>Header Files\Renko\Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="CursorInteractible.h">
+      <Filter>Header Files\Renko\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Header Files\Renko\Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="EaseType.h">
+      <Filter>Header Files\Renko\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Easing.h">
+      <Filter>Header Files\Renko\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>Header Files\Renko\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Renko\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\Renko\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="InputBlocker.h">
+      <Filter>Header Files\Renko\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicController.h">
+      <Filter>Header Files\Renko\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\Renko\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEmitter.h">
+      <Filter>Header Files\Renko\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PathUtils.h">
+      <Filter>Header Files\Renko\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Pivot.h">
+      <Filter>Header Files\Renko\Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header Files\Renko\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteWrapMode.h">
+      <Filter>Header Files\Renko\Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
+      <Filter>Header Files\Renko\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TextOverflow.h">
+      <Filter>Header Files\Renko\Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Renko\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAnimatedSprite.h">
+      <Filter>Header Files\Renko\Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDisplayer.h">
+      <Filter>Header Files\Renko\Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UILabel.h">
+      <Filter>Header Files\Renko\Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScreen.h">
+      <Filter>Header Files\Renko\Components\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="UIOverlay.h">
+      <Filter>Header Files\Renko\Components\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="UIView.h">
+      <Filter>Header Files\Renko\Components\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="UIOverlayController.h">
+      <Filter>Header Files\Renko\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScreenController.h">
+      <Filter>Header Files\Renko\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="UIViewController.h">
+      <Filter>Header Files\Renko\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="UISprite.h">
+      <Filter>Header Files\Renko\Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UITexture.h">
+      <Filter>Header Files\Renko\Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIWidget.h">
+      <Filter>Header Files\Renko\Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Updatable.h">
+      <Filter>Header Files\Renko\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Header Files\Renko\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files\Renko\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Header Files\Renko\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkTest.h">
+      <Filter>Header Files\Tests\FrameworkTest</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkTestScreen.h">
+      <Filter>Header Files\Tests\FrameworkTest</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkTestButton.h">
+      <Filter>Header Files\Tests\FrameworkTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\Renko\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

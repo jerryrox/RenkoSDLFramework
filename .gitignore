@@ -1,0 +1,6 @@
+.vs
+*.obj
+*.idb
+*.pdb
+Framework.tlog
+*.ilk
